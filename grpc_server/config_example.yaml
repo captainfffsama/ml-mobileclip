@@ -1,0 +1,8 @@
+detector_params:
+  model_type: "mobileclip_b"
+  ckpt_path: "/home/chiebot-cv/project/hq_workspace/ml-mobileclip/checkpoints/mobileclip_blt.pt"
+  device: "cuda:2"
+grpc_args:
+  host: "0.0.0.0"
+  port: "52007"
+  max_workers: 10
